@@ -8,6 +8,8 @@ var clients = {};
 
 //middlewre
 app.use(express.json());
+const routes = require("./routes.js");
+app.use("/routes", routes);
 
 io.on("connection", (socket) => {
   console.log("connetetd");

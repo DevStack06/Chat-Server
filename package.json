@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
+    "multer": "^1.4.2",
     "nodemon": "^2.0.7",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
-    "dev":"nodemon index"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
